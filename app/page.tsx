@@ -7,9 +7,9 @@ import WithVsWithout from "@/components/WithVsWithout";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Enhanced Facilities Management for Associations | Facilities PM",
+  title: "Enhanced Facilities Management for Associations | FacilitiesPM",
   description:
-    "Transform your association's facilities management with Facilities PM. Streamline workflows, boost productivity, and enhance member experience with our purpose-built platform designed by certified experts.",
+    "Transform your association's facilities management with FacilitiesPM. Streamline workflows, boost productivity, and enhance member experience with our purpose-built platform designed by certified experts.",
   keywords: [
     "facilities management software",
     "association management system",
@@ -21,22 +21,22 @@ export const metadata: Metadata = {
     "association technology solutions",
   ],
   openGraph: {
-    title: "Enhanced Facilities Management for Associations | Facilities PM",
+    title: "Enhanced Facilities Management for Associations | FacilitiesPM",
     description:
-      "Transform your association's facilities management with Facilities PM. Streamline workflows, boost productivity, and enhance member experience.",
+      "Transform your association's facilities management with FacilitiesPM. Streamline workflows, boost productivity, and enhance member experience.",
     images: [
       {
         url: "/images/hero-image-01.jpg",
         width: 1200,
         height: 630,
-        alt: "Facilities PM - Enhanced Facilities Management Platform",
+        alt: "FacilitiesPM - Enhanced Facilities Management Platform",
       },
     ],
   },
   twitter: {
-    title: "Enhanced Facilities Management for Associations | Facilities PM",
+    title: "Enhanced Facilities Management for Associations | FacilitiesPM",
     description:
-      "Transform your association's facilities management with Facilities PM. Streamline workflows, boost productivity, and enhance member experience.",
+      "Transform your association's facilities management with FacilitiesPM. Streamline workflows, boost productivity, and enhance member experience.",
     images: ["/images/hero-image-01.jpg"],
   },
   alternates: {
@@ -48,9 +48,9 @@ export default function Home() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    name: "Facilities PM",
+    name: "FacilitiesPM",
     description:
-      "Facilities PM is an all-in-one facilities management platform, purpose-built for associations to boost productivity and streamline workflows.",
+      "FacilitiesPM is an all-in-one facilities management platform, purpose-built for associations to boost productivity and streamline workflows.",
     url: "https://facilitiespm.io",
     applicationCategory: "BusinessApplication",
     operatingSystem: "Web",

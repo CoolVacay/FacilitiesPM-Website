@@ -42,7 +42,7 @@ export default function Features() {
               Created to increase productivity
             </h2>
             <p className="text-lg text-indigo-200/65">
-              Facilities PM is a comprehensive platform designed by credentialed
+              FacilitiesPM is a comprehensive platform designed by credentialed
               facility maintenance experts that integrates directly with your
               reserve study and features an expert-vetted procedure library.
             </p>
@@ -162,7 +162,7 @@ export default function Features() {
                 Built by Industry Experts
               </h3>
               <p className="text-indigo-200/85">
-                CRely on certified professionals who know exactly what managing
+                Rely on certified professionals who know exactly what managing
                 shared properties requires.
               </p>
             </article>

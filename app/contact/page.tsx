@@ -4,9 +4,9 @@ import Cta from "@/components/cta";
 import { Metadata } from "next/dist/types";
 
 export const metadata: Metadata = {
-  title: "Contact Us - Get in Touch with Facilities PM",
+  title: "Contact Us - Get in Touch with FacilitiesPM",
   description:
-    "Contact Facilities PM for support, questions, or to learn more about our facilities management platform. Call (407) 610-2628 or email info@facilitiespm.io. Located in Orlando, FL.",
+    "Contact FacilitiesPM for support, questions, or to learn more about our facilities management platform. Call (407) 610-2628 or email info@facilitiespm.io. Located in Orlando, FL.",
   keywords: [
     "contact facilities management",
     "facilities PM support",
@@ -16,22 +16,22 @@ export const metadata: Metadata = {
     "association technology support",
   ],
   openGraph: {
-    title: "Contact Us - Get in Touch with Facilities PM",
+    title: "Contact Us - Get in Touch with FacilitiesPM",
     description:
-      "Contact Facilities PM for support, questions, or to learn more about our facilities management platform. Call (407) 610-2628 or email info@facilitiespm.io.",
+      "Contact FacilitiesPM for support, questions, or to learn more about our facilities management platform. Call (407) 610-2628 or email info@facilitiespm.io.",
     images: [
       {
         url: "/images/hero-image-01.jpg",
         width: 1200,
         height: 630,
-        alt: "Contact Facilities PM - Facilities Management Support",
+        alt: "Contact FacilitiesPM - Facilities Management Support",
       },
     ],
   },
   twitter: {
-    title: "Contact Us - Get in Touch with Facilities PM",
+    title: "Contact Us - Get in Touch with FacilitiesPM",
     description:
-      "Contact Facilities PM for support, questions, or to learn more about our facilities management platform.",
+      "Contact FacilitiesPM for support, questions, or to learn more about our facilities management platform.",
     images: ["/images/hero-image-01.jpg"],
   },
   alternates: {

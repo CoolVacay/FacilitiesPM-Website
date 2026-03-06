@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import HeroImages from "./hero-images";
 
@@ -7,7 +8,7 @@ export default function HeroHome() {
     <section>
       <div className="mx-auto max-w-6xl px-4 sm:px-6 leading-5">
         {/* Hero content */}
-        <div className="py-12 md:py-20">
+        <div className="py-12 md:py-10">
           {/* Section header */}
           <div className="pb-12 text-center md:pb-20">
             {/* 🔰 Trust Badge */}
@@ -17,10 +18,19 @@ export default function HeroHome() {
             >
               🔰 Built by Certified Experts
             </div>
+            {/* FacilitiesPM logo */}
+            <Image
+              src="/FPMHorizontalWhite.png"
+              alt="FacilitiesPM — Smart Facilities. Seamless Operations."
+              width={320}
+              height={80}
+              className="mx-auto my-6 h-auto w-full max-w-[280px] md:max-w-[320px]"
+              priority
+            />
 
             {/* Hero Heading */}
             <h1
-              className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.indigo.200),theme(colors.gray.50),theme(colors.indigo.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-5 font-nacelle font-semibold text-transparent text-4xl md:text-7xl"
+              className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.indigo.200),theme(colors.gray.50),theme(colors.indigo.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-3 font-nacelle font-semibold text-transparent text-3xl md:text-5xl"
               data-aos="fade-up"
             >
               Enhanced Facilities
@@ -28,9 +38,9 @@ export default function HeroHome() {
               Management for Associations
             </h1>
 
-            <div className="mx-auto max-w-3xl">
+            <div className="mx-auto max-w-4xl">
               <p
-                className="mb-8 text-xl text-indigo-200/65"
+                className="mb-6 text-lg text-indigo-200/65"
                 data-aos="fade-up"
                 data-aos-delay={200}
               >

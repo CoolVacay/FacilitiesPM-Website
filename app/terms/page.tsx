@@ -2,9 +2,9 @@ import React from "react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms of Service - Email Collection | Facilities PM",
+  title: "Terms of Service - Email Collection | FacilitiesPM",
   description:
-    "Terms of Service for email collection at Facilities PM. Learn about our data privacy practices, consent policies, and how we handle your email information. Effective April 15, 2025.",
+    "Terms of Service for email collection at FacilitiesPM. Learn about our data privacy practices, consent policies, and how we handle your email information. Effective April 15, 2025.",
   keywords: [
     "terms of service",
     "privacy policy",
@@ -15,22 +15,22 @@ export const metadata: Metadata = {
     "data protection",
   ],
   openGraph: {
-    title: "Terms of Service - Email Collection | Facilities PM",
+    title: "Terms of Service - Email Collection | FacilitiesPM",
     description:
-      "Terms of Service for email collection at Facilities PM. Learn about our data privacy practices and consent policies.",
+      "Terms of Service for email collection at FacilitiesPM. Learn about our data privacy practices and consent policies.",
     images: [
       {
         url: "/logo-white.png",
         width: 1200,
         height: 630,
-        alt: "Facilities PM Terms of Service",
+        alt: "FacilitiesPM Terms of Service",
       },
     ],
   },
   twitter: {
-    title: "Terms of Service - Email Collection | Facilities PM",
+    title: "Terms of Service - Email Collection | FacilitiesPM",
     description:
-      "Terms of Service for email collection at Facilities PM. Learn about our data privacy practices and consent policies.",
+      "Terms of Service for email collection at FacilitiesPM. Learn about our data privacy practices and consent policies.",
     images: ["/logo-white.png"],
   },
   alternates: {

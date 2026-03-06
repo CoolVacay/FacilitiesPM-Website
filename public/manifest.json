@@ -1,7 +1,7 @@
 {
-  "name": "Facilities PM - Enhanced Facilities Management for Associations",
-  "short_name": "Facilities PM",
-  "description": "Facilities PM is an all-in-one facilities management platform, purpose-built for associations to boost productivity and streamline workflows.",
+  "name": "FacilitiesPM - Enhanced Facilities Management for Associations",
+  "short_name": "FacilitiesPM",
+  "description": "FacilitiesPM is an all-in-one facilities management platform, purpose-built for associations to boost productivity and streamline workflows.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0a0a0a",

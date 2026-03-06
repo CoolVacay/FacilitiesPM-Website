@@ -43,11 +43,11 @@ const nacelle = localFont({
 
 export const metadata = {
   title: {
-    default: "Facilities PM - Enhanced Facilities Management for Associations",
-    template: "%s | Facilities PM",
+    default: "FacilitiesPM - Enhanced Facilities Management for Associations",
+    template: "%s | FacilitiesPM",
   },
   description:
-    "Facilities PM is an all-in-one facilities management platform, purpose-built for associations to boost productivity and streamline workflows. Built by certified experts.",
+    "FacilitiesPM is an all-in-one facilities management platform, purpose-built for associations to boost productivity and streamline workflows. Built by certified experts.",
   keywords: [
     "facilities management",
     "association management",
@@ -62,7 +62,7 @@ export const metadata = {
   ],
   authors: [{ name: "LemonJuice Solutions" }],
   creator: "LemonJuice Solutions",
-  publisher: "Facilities PM",
+  publisher: "FacilitiesPM",
   formatDetection: {
     email: false,
     address: false,
@@ -76,30 +76,30 @@ export const metadata = {
     type: "website",
     locale: "en_US",
     url: "https://www.facilitiespm.io",
-    siteName: "Facilities PM",
-    title: "Facilities PM - Enhanced Facilities Management for Associations",
+    siteName: "FacilitiesPM",
+    title: "FacilitiesPM - Enhanced Facilities Management for Associations",
     description:
-      "Facilities PM is an all-in-one facilities management platform, purpose-built for associations to boost productivity and streamline workflows. Built by certified experts.",
+      "FacilitiesPM is an all-in-one facilities management platform, purpose-built for associations to boost productivity and streamline workflows. Built by certified experts.",
     images: [
       {
         url: "/logo-white.png",
         width: 1200,
         height: 630,
-        alt: "Facilities PM Logo",
+        alt: "FacilitiesPM Logo",
       },
       {
         url: "/logo-black.png",
         width: 1200,
         height: 630,
-        alt: "Facilities PM Logo",
+        alt: "FacilitiesPM Logo",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Facilities PM - Enhanced Facilities Management for Associations",
+    title: "FacilitiesPM - Enhanced Facilities Management for Associations",
     description:
-      "Facilities PM is an all-in-one facilities management platform, purpose-built for associations to boost productivity and streamline workflows.",
+      "FacilitiesPM is an all-in-one facilities management platform, purpose-built for associations to boost productivity and streamline workflows.",
     images: ["/logo-white.png"],
   },
   robots: {
